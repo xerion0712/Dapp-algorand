@@ -1,5 +1,5 @@
 # End-to-End Web3 dApps with Algorand NFTs and smart contracts
-![Algorand Protocol Participation](https://images.prismic.io/algorandfoundationv2/54ad62d1-e7b3-4a74-afdb-0ee376d5ce22_protocol.png)
+![Algorand Protocol Participation](https://blockgeeks.com/wp-content/uploads/2016/10/What-are-Smart-Contracts_.png.webp)
 
 ### Introduction
 Web3 is the stack of protocols that enable fully decentralized applications. Web3 technology is inherently about the user controlled internet. It is being achieved by a growing stack of decentralized technologies, such as blockchains, smart contracts, oracles, crypto wallets, storage networks, and more.
@@ -66,8 +66,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 ### Analyzing the Bundle Size
-
+-
 ### Deployment
-
+-
 ### Author
 Birhanu Gebisa : birhanugebisa@gmail.com
