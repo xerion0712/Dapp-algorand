@@ -16,12 +16,16 @@ msgpack==1.0.4
 packaging==21.3
 pluggy==1.0.0
 py==1.11.0
-py-algorand-sdk==1.12.0
+py-algorand-sdk
 pycparser==2.21
 pycryptodomex==3.14.1
 PyNaCl==1.5.0
 pyparsing==3.0.9
 pytest==7.0.1
+pyteal==0.9.1
+py-algorand-sdk==1.8.0
+mypy==0.910
+black==21.7b0
 python-dotenv==0.20.0
 tomli==1.2.3
 Werkzeug==2.0.3
