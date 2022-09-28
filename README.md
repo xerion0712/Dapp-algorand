@@ -17,6 +17,8 @@ Algorand provides a docker instance for setting up a node, which can be used to 
 git clone https://github.com/algorand/sandbox.git
 cd sandbox
 ./sandbox up testnet
+or
+./sandbox up testnet -v
 ```
 
 ### Install SDK
