@@ -1,0 +1,28 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "description": "digital certificate smart contract",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "untest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BirhanuGebisa/Algorand-dapps_smart-contract.git"
+  },
+  "keywords": [
+    "AA"
+  ],
+  "author": "Birhanu Gebisa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BirhanuGebisa/Algorand-dapps_smart-contract/issues"
+  },
+  "homepage": "https://github.com/BirhanuGebisa/Algorand-dapps_smart-contract#readme",
+  "dependencies": {
+    "algosdk": "^1.21.0"
+  }
+}
