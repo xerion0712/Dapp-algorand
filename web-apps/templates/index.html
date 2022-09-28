@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Algorand Balance</h1>
+<h1>{{ balance }}</h1>
+<h2><a href="{{ url_for('main_bp.mnemonic') }}">View Recovery Passphrase</a></h2>
+{% endblock %}
