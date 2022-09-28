@@ -41,14 +41,6 @@ cd algorand-NFTs-smartContracts
 npm start
 ```
 
-or
-
-```bash
-git clone https://github.com/BirhanuGebisa/Algorand-dapps_smart-contract.git
-cd algorand-NFTs-smartContracts
-node server.js
-```
-
 Runs the app in the development mode.
 Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 
