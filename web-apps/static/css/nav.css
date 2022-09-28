@@ -1,0 +1,33 @@
+.topnav {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.topnav a.logout {
+    background-color: lightcoral;
+    color: white;
+}
