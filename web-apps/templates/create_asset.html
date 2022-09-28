@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Create an Asset</h1>
+<form action="{{ url_for('main_bp.create') }}" method="post">
+    {{ form.csrf_token }}
+
+    {{ form.asset_name.label }}
+    <br>
+    {{ form.asset_name }}
+    <br><br>
+    {{ form.unit_name.label }}
+    <br>
+    {{ form.unit_name }}
+    <br><br>
+    {{ form.total.label }}
+    <br>
+    {{ form.total }}
+    <br><br>
+    {{ form.decimals.label }}
+    <br>
+    {{ form.decimals }}
+    <br><br>
+    {{ form.default_frozen.label }}
+    <br>
+    {{ form.default_frozen }}
+    <br><br>
+    {{ form.url.label }}
+    <br>
+    {{ form.url }}
+    <br><br>
+    {{ form.submit }}
+    <br>
+    {% if form.errors %}
+        <h2>Invalid submission</h2>
+    {% endif %}
+</form>
+{% endblock %}
