@@ -1,3 +1,4 @@
+#navigator file update
 <nav class="topnav">
     <a href="{{ url_for('main_bp.transactions') }}" {% if request.path==url_for('main_bp.nft') %} class="active"{% endif %}>Transactions</a>
     <a href="{{ url_for('main_bp.assets') }}" {% if request.path==url_for('main_bp.assets') %} class="active"{% endif %}>Assets</a>
