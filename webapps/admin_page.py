@@ -11,7 +11,7 @@ login_manager = LoginManager()
 auth_bp = Blueprint(
     'auth_bp', __name__,
     template_folder='frontend_page',
-    static_folder='css_file'
+    static_folder='static'
 )
 
 
