@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Assets</h1>
+<a href="{{ url_for('main_bp.create') }}"><h2>Create an Asset</h2></a>
+<form action="{{ url_for('main_bp.assets') }}" method="post">
+    {{ form.csrf_token }}
+
+    {{ form.substring }}
+    {{ form.submit }}
+</form>
+<table>
+    <tr>
+        <th>Asset Name</th>
+        <th>Unit Name</th>
+        <th>Total</th>
+        <th>Decimals</th>
+        <th>Frozen</th>
+        <th>URL</th>
+    </tr>
+    {% for asset in assets %}
+    <tr>
+        <td>{{ asset.params.name }}</td>
+        <td>{{ asset.params.get('unit-name') }}</td>
+        <td>{{ asset.params.total }}</td>
+        <td>{{ asset.params.decimals }}</td>
+        <td>{{ asset.params.get('default-frozen') }}</td>
+        <td>{{ asset.params.url }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
