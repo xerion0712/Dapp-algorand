@@ -3,7 +3,7 @@ import base64
 from algosdk import account, mnemonic, constants
 from algosdk.v2client import algod
 from algosdk.future import transaction
-
+#transaction update
 def generate_algorand_keypair():
     private_key, address = account.generate_account()
     print("My address: {}".format(address))
