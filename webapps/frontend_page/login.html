@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1><center>Algorand Blockchain for Tenx Platform Certificate </br></br></br>
+    Login</center></h1>
+<form action="{{ url_for('auth_bp.login') }}" method="post">
+    {{ form.csrf_token }}
+
+    {{ form.passphrase.label }}
+    <br>
+    {{ form.passphrase }}
+    <br><br>
+    {{ form.submit }}
+</form>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<h2>Passphrase not found</h2>
+{% else %}
+<br>
+{% endif %}
+{% endwith %}
+<br>
+<h3><a href="{{ url_for('auth_bp.signup') }}">Create a Wallet</a></h3>
+{% endblock %}
