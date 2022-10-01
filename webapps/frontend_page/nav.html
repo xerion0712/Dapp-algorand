@@ -1,0 +1,10 @@
+<nav class="topnav">
+    <a href="{{ url_for('main_bp.transactions') }}" {% if request.path==url_for('main_bp.nft') %} class="active"{% endif %}>Transactions</a>
+    <a href="{{ url_for('main_bp.assets') }}" {% if request.path==url_for('main_bp.assets') %} class="active"{% endif %}>Assets</a>
+    <a href="{{ url_for('main_bp.index') }}" {% if request.path==url_for('main_bp.index') %} class="active"{% endif %}>Balance</a>
+    <a href="{{ url_for('main_bp.send') }}" {% if request.path==url_for('main_bp.send') %} class="active"{% endif %}>Transfer</a>
+    <a href="{{ url_for('main_bp.nft') }}" {% if request.path==url_for('main_bp.nft') %} class="active"{% endif %}>Certeficate</a>
+    {% if current_user.is_authenticated %}
+    <a class="logout" href="{{ url_for('main_bp.logout') }}"> Logout </a>
+    {% endif %}
+</nav>
