@@ -4,7 +4,7 @@ from flask_login import UserMixin
 from .algodand import get_balance, send_txn, create_asset
 from .index import get_transactions, get_assets
 
-
+#model script update
 class User(UserMixin):
     """User account model"""
 
