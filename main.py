@@ -13,10 +13,10 @@ creator = account.generate_account()
 # Get network params for transactions before every transaction.
 params = algod_client.suggested_params()
 
-mnemonic_pharase = "limb story melody then hollow purchase brief kitchen tunnel pencil puppy sure hover jazz bargain ability economy father youth cigar language connect trap above hotel"
+mnemonic_pharase = "emerge quarter always side worry table glow twelve divorce prize income whisper knife brave mention bench monitor march wait throw glue cover photo abandon arctic"
 
 creator = {
-    "pk": "VP2NHSBHVCQRXRX4QKRATNBXSCM3OSPVDL7OS7QBY2LU2GHAAMAVDXHMXM",
+    "pk": "3QVNU6X57L35WGLR2WATU4XHRENJNWYSR54WVGQORYFSGM3JTTWISW6BLA",
     "sk": mnemonic.to_private_key(mnemonic_pharase) #sk = 'secret key'
 }
 
@@ -46,5 +46,3 @@ print("Signed transaction with txID: {}".format(txid))
 confirmed_txn = wait_for_confirmation(algod_client, txid, 4)  
 print("TXID: ", txid)
 print("Result confirmed in round: {}".format(confirmed_txn['confirmed-round']))   
-
-# if __name__ == "__main__": 
