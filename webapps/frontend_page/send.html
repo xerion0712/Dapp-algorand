@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Send Algorand</h1>
+<form action="{{ url_for('main_bp.send') }}" method="post">
+    {{ form.csrf_token }}
+
+    {{ form.quantity.label }}
+    <br>
+    {{ form.quantity }}
+    <br>
+    {% if form.quantity.errors %}
+        <h3>{{ form.quantity.errors[0] }}</h3>
+    {% endif %}
+    <br>
+    {{ form.receiver.label }}
+    <br>
+    {{ form.receiver }}
+    <br>
+    {% if form.receiver.errors %}
+        <h3>{{ form.receiver.errors[0] }}</h3>
+    {% endif %}
+    <br>
+    {{ form.note.label }}
+    <br>
+    {{ form.note }}
+    <br>
+    {% if form.note.errors %}
+        <h3>{{ form.note.errors[0] }}</h3>
+    {% endif %}
+    <br>
+    {{ form.submit }}
+</form>
+<h1>Receive Algorand</h1>
+<h2>Your address is:</h2>
+<h4>{{ address }}</h4>
+{% endblock %}
