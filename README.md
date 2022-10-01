@@ -61,5 +61,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### run project
 - flask run
+### Deployment
+- https://lgorand-dapps-smart-contract.herokuapp.com/login
 ### Author
 Birhanu Gebisa : birhanugebisa@gmail.com
