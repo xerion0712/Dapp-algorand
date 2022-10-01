@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Certificate</h1>
+<a href="{{ url_for('main_bp.create') }}"><h2>Post Certificate</h2></a>
+<form action="{{ url_for('main_bp.assets') }}" method="post">
+    {{ form.csrf_token }}
+
+    {{ form.substring }}
+    {{ form.submit }}
+</form>
+<table>
+    <tr>
+        <th>Certificate ID</th> 
+        <th>Tranee Name</th>
+        <th>Bid</th> 
+    </tr>
+    {% for asset in assets %}
+    <tr>
+        <td>{{ asset.params.name }}</td> 
+        <td>{{ asset.params.total }}</td> 
+        <td>{{ asset.params.url }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
