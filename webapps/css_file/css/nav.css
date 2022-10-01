@@ -1,0 +1,45 @@
+.topnav {
+    background-color: rgb(82, 138, 202);
+    text-align: center;
+    width: 150px;
+    position: absolute;
+    height: 100%;
+    padding-top: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: black;
+    text-decoration: none;
+    border-radius: 60px;
+    font-size: 18px;
+    display: block;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.topnav a.logout {
+    background-color: lightcoral;
+    color: white;
+}
+
+    
+    
+    
+    
