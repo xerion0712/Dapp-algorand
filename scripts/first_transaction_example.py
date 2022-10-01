@@ -27,7 +27,7 @@ def first_transaction_example(private_key, my_address):
     # comment out the next two (2) lines to use suggested fees
     params.flat_fee = constants.MIN_TXN_FEE 
     params.fee = 1000
-    receiver = "HZ57J3K46JIJXILONBBZOHX6BKPXEM2VVXNRFSUED6DKFD5ZD24PMJ3MVA"
+    receiver = "3QVNU6X57L35WGLR2WATU4XHRENJNWYSR54WVGQORYFSGM3JTTWISW6BLA"
     amount = 100000
     note = "Hello World".encode()
 
