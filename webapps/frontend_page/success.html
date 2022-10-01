@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+{% if success %}
+<h1>Transaction Success</h1>
+{% else %}
+<h1>Transaction Failed</h1>
+{% endif %}
+{% endblock %}
