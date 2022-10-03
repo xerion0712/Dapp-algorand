@@ -28,7 +28,6 @@ Algorand provides an SDK for Python which is available as a pip package. To inst
 ```bash
 pip3 install py-algorand-sdk
 ```
-
 Follow this link for creating an account [developer.algorand.sdk](https://developer.algorand.org/docs/sdks/python/)
 
 ### Setup react app
@@ -42,7 +41,6 @@ git clone https://github.com/BirhanuGebisa/Algorand-dapps_smart-contract.git
 cd algorand-NFTs-smartContracts
 npm start
 ```
-
 Runs the app in the development mode.
 Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 
