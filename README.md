@@ -1,7 +1,7 @@
 # End-to-End Web3 dApp: Algorand NFTs and Smart Contracts
 
 ## Introduction
-Web3 refers to a framework built on decentralized protocols and technologies. This stack enables applications that are centered on user control and distributed consensus. Core components of Web3 include blockchains, smart contracts, non-fungible tokens (NFTs), decentralized storage networks, oracles, and crypto wallets.[3][1]
+Web3 refers to a framework built on decentralized protocols and technologies. This stack enables applications that are centered on user control and distributed consensus. Core components of Web3 include blockchains, smart contracts, non-fungible tokens (NFTs), decentralized storage networks, oracles, and crypto wallets.
 
 ## Project Objective
 The project addresses the limitations of distributing certificates as static PDF files. The aim is to deliver certificates as digital assets (NFTs) on the Algorand blockchain, supporting on-chain verification, security, and additional functionality through smart contracts.[1]
